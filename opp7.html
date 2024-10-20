@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Screens</title>
+    <link rel="stylesheet" href="two.css">
+</head>
+<body>
+    <div class="screen">
+        <div class="screen__bar">
+            <span><i class="fa-solid fa-arrow-left"></i></span>
+            <span><i class="fa-solid fa-magnifying-glass"></i></span>
+        </div>
+
+        <div class="screen__artist">
+            <img src = "bruno_1.jpeg" />
+            <span><h2>Bruno Mars</h2></span>
+            <span> Pop, R&B</span>
+
+        </div>
+
+        <div class="screen__artist__icons">         
+            <span>Shuffle</span>    
+           
+            <div class="screen__artist__heart">
+                <i class="fa-solid fa-heart"></i>
+                <span>10 000 000</span>
+            </div>
+        </div>
+   
+
+        <ul class="playlist">
+            <li class="playlist-item">
+                <img src="bru_gaga.jpeg" class="playlist-item__pic" />
+                <div class="playlist-item__info">
+                    <span class="playlist-item__info__singer">Bruno Mars</span>
+                    <span class="playlist-item__info__title">Die With a Smile</span>
+                </div>
+                <div class = "playlist-item__icon">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </li>
+
+            <li class="playlist-item">
+                <img src="bru_rosie.jpeg" class="playlist-item__pic" />
+                <div class="playlist-item__info">
+                    <span class="playlist-item__info__singer">Bruno Mars</span>
+                    <span class="playlist-item__info__title">APT.</span>
+                </div>
+                <div class = "playlist-item__icon">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </li>
+
+            <li class="playlist-item">
+                <img src="24magic.jpeg" class="playlist-item__pic" />
+                <div class="playlist-item__info">
+                    <span class="playlist-item__info__singer">Bruno Mars</span>
+                    <span class="playlist-item__info__title">That's What I Like</span>
+                </div>
+                <div class = "playlist-item__icon">
+                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                </div>
+            </li>
+        </ul>
+
+        <div class="now-playing">
+            <div class="now-playing__text">
+                <div class="now-playing__text__singer">Bruno Mars</div>
+                <div class="now-playing__text__song">APT.</div>
+            </div>
+
+            <div class="now-playing__icons">
+                <i class="fa-solid fa-backward-step"></i>
+                <i class="fa-solid fa-pause fa-2x"></i>
+                <i class="fa-solid fa-forward-step"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="screen">
+        <div class="screen__bar">
+            <span><i class="fa-solid fa-arrow-left"></i></span>
+            <span><i class="fa-solid fa-ellipsis-vertical"></i></span>
+        </div>
+
+        <div class="screen-playing">
+            <img src="bru_rosie.jpeg"  class="screen-playing__pic">
+            <div class="screen-playing__text">
+                <span class="screen-playing__text__title">APT.</span>
+                <span class="screen-playing__text__singer">Bruno Mars & Rose</span>
+
+            </div>
+        </div>
+
+        <div class="screen-playing__length">
+            <div class="screen-playing__length__nr">
+                <span class="screen-playing__length__nr__start">00:00</span>
+                <span class="screen-playing__length__nr__end">03:01</span>
+            </div>
+            <div class="screen-playing__length__ranage">
+                <input type="range" min="0" max="100"/>
+
+            </div>
+
+
+        </div>
+
+        <div class="screen-playging__icons">
+            <i class="fa-solid fa-repeat"></i>
+            <i class="fa-solid fa-backward-step fa-2x"></i>
+            <i class="fa-solid fa-circle-play fa-4x"></i>
+            <i class="fa-solid fa-forward-step fa-2x"></i>
+            <i class="fa-solid fa-shuffle"></i>
+
+        </div>
+
+
+    </div>
+    <script src="https://kit.fontawesome.com/16a4f9e09c.js" 
+    crossorigin="anonymous">
+    </script>
+</body>
+</html>
